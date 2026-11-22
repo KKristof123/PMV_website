@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    /*background-image:
+        linear-gradient(lightgray 1px, transparent 1px),
+        linear-gradient(90deg, lightgray 1px, transparent 1px);
+
+    background-size: 30px 30px;/*clamp(10px, 3vw, 50px) clamp(10px, 3vw, 50px);*/
+}
+
+/*----------------------------------------------------------------------*/
+
+.focim{
+    text-align: center;
+    font-size: clamp(10px, 5vw, 100px);
+    text-shadow:
+        -1px -1px 0 white,
+         0px -1px 0 white,
+         1px -1px 0 white,
+        -1px  0px 0 white,
+         1px  0px 0 white,
+        -1px  1px 0 white,
+         0px  1px 0 white,
+         1px  1px 0 white;
+}
+
+.fejlec{
+    height: clamp(60px, 10vw, 200px);
+    background-color: white;
+    background-image: url("fejlec3.png");
+    background-size: clamp(300px, 30vw, 600px);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.kepek {
+    display: flex;
+    justify-content: center; /* oldalról közép */
+    align-items: center;     /* fent-lent közép */
+    gap: clamp(0px, 27%/6, 400px);
+    /*border: 1px solid black;*/
+}
+/*.kepek img {
+    border: 1px solid black; 
+}*/
+
+.katona_logo{
+    width: clamp(0px, 27%/2, 200px);
+    
+}
+.PMV_logo{
+    padding: clamp(0px, 2.7%, 40px);
+    width: clamp(0px, 27%, 400px);
+}
+.NJE_logo{
+    width: clamp(0px, 27%/2, 200px);
+    
+}
+
+/*----------------------------------------------------------------------*/
+
+.Fornetti_logo{
+    width: clamp(0px, 30%, 500px);
+    
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.tartalom{
+    flex-grow: 1;
+    background-color: white;
+
+    border-left: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+
+    container-type: inline-size;
+
+}
+/*@media (max-width: 940px) {
+    .tartalom {
+        flex-grow: 0;    
+        flex-shrink: 0;  
+        max-width: 700PX;
+        width: 100%;
+        
+    }
+}*/
+.szel{
+    width: clamp(0px, (100% - 700px) / 2, 240px);
+    flex-shrink: 0;
+    background-color: antiquewhite;
+    background-image:
+        linear-gradient(lightgray 1px, transparent 1px),
+        linear-gradient(90deg, lightgray 1px, transparent 1px);
+
+    background-size: 30px 30px;
+}
+.bal{
+    background-position: right top;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+hr{
+    height: 3px;
+    margin: clamp(15px, 2.7cqi * 1.5, 45px) 4vw;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+
+h2{
+    margin-left: 1%;
+    font-size: clamp(15px, 2.7cqi * 1.5, 45px);
+}
+p{
+    margin-left: 2%;
+    font-size: clamp(10px, 2.7cqi, 30px);
+}
