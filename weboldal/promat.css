@@ -129,5 +129,6 @@ h2{
 }
 p{
     margin-left: 2%;
+    margin-right: 2%;
     font-size: clamp(10px, 2.7cqi, 30px);
 }
