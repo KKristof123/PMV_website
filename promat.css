@@ -48,10 +48,12 @@ body{
 /*.kepek img {
     border: 1px solid black; 
 }*/
+.kepek a {
+    display: contents;
+}
 
 .katona_logo{
     width: clamp(0px, 27%/2, 200px);
-    
 }
 .PMV_logo{
     padding: clamp(0px, 2.7%, 40px);
@@ -59,14 +61,12 @@ body{
 }
 .NJE_logo{
     width: clamp(0px, 27%/2, 200px);
-    
 }
 
 /*----------------------------------------------------------------------*/
 
 .Fornetti_logo{
     width: clamp(0px, 30%, 500px);
-    
 }
 
 
